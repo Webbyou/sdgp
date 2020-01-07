@@ -173,7 +173,7 @@ content="Lo Studio SDG&P Commercialista a Catania fornisce consulenza aziendale,
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sdgp/pwa-sw.js')
+    navigator.serviceWorker.register('/sdgp/pwa-sw.js')
         .then((reg) => {
           console.log('Service worker registered.', reg);
         });
