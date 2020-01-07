@@ -82,7 +82,7 @@
 <!--favicon-->
 <link rel="shortcut icon" href="favicon.ico" />
 <!--Safari pinned tab icon. Should be a solid black svg-->
-<link rel="mask-icon" href="sdgp/img/logo_sdgp_green.svg" color="green" sizes="any">
+<link rel="mask-icon" href="/img/logo_sdgp_green.svg" color="green" sizes="any">
 
 
 <!--if the site has an associated facebook page-->
@@ -173,7 +173,7 @@ content="Lo Studio SDG&P Commercialista a Catania fornisce consulenza aziendale,
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/pwa-sw.js')
+    navigator.serviceWorker.register('sdgp/pwa-sw.js')
         .then((reg) => {
           console.log('Service worker registered.', reg);
         });
@@ -1085,7 +1085,7 @@ godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
                         <div class="navbar-header">
                             <div>
                     <a href="https://sdgp.it" class="logo">
-          <img rel="logo" src="sdgp/img/logo_sdgp_green.svg" alt="SDGP | Commercialista a Catania - Revisore Legale" width="106" />
+          <img rel="logo" src="/img/logo_sdgp_green.svg" alt="SDGP | Commercialista a Catania - Revisore Legale" width="106" />
         </a>
                         </div>
                       
